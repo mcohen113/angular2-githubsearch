@@ -9,6 +9,11 @@ export class GithubService{
   private client_secret='81be5994db019e75c488e09d1dcfafafbc51922b';
 
   constructor(private _http:Http) {
-    console.log('Github Service Init... ')
+    console.log('Github Service Init... ');
+  }
+
+  getUser(){
+    return this._http.get('https://api.github.com/users/' +this.username)
+      .map(res => res.json());
   }
 }
