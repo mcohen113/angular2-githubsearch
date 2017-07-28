@@ -10,6 +10,8 @@ import {GithubService} from '../services/github.service';
 })
 export class GithubComponent  {
   user: any;
+  repos: any;
+  username: string;
 
   constructor(private _githubService:GithubService) {
     console.log('Github Component Init');
@@ -25,4 +27,7 @@ export class GithubComponent  {
     });
   }
 
+  search(){
+    console.log(this.username);
+  }
 }
