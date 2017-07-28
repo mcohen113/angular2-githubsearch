@@ -18,6 +18,11 @@ export class GithubComponent  {
      // console.log(users);
      this.user = user;
     });
+
+    this._githubService.getRepos().subscribe(repos => {
+     // console.log(users);
+     this.repos = repos;
+    });
   }
 
 }
