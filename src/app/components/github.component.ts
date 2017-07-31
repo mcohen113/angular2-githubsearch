@@ -11,23 +11,31 @@ import {GithubService} from '../services/github.service';
 export class GithubComponent  {
   user: any;
   repos: any;
-  username: string;
+  username: any;
 
   constructor(private _githubService:GithubService) {
-    console.log('Github Component Init');
+    // console.log('Github Component Init');
 
     this._githubService.getUser().subscribe(user => {
-     // console.log(users);
      this.user = user;
     });
 
     this._githubService.getRepos().subscribe(repos => {
-     // console.log(users);
+
      this.repos = repos;
     });
   }
 
   search(){
-    console.log(this.username);
+    this._githubService.updateUsername(this.username);
+
+    this._githubService.getUser().subscribe(user => {
+     this.user = user;
+    });
+
+    this._githubService.getRepos().subscribe(repos => {
+
+     this.repos = repos;
+    });
   }
 }
