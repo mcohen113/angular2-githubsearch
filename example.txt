@@ -1,0 +1,101 @@
+2017-08-01T00:04:41.405383+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:41.405385+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:41.405385+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:41.405387+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:41.405386+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:41.405388+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:41.407230+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:41.407232+00:00 app[web.1]: 
+2017-08-01T00:04:41.407235+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:41.530798+00:00 app[web.1]: module.js:471
+2017-08-01T00:04:41.530800+00:00 app[web.1]:     throw err;
+2017-08-01T00:04:41.530801+00:00 app[web.1]:     ^
+2017-08-01T00:04:41.530802+00:00 app[web.1]: 
+2017-08-01T00:04:41.530803+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:469:15)
+2017-08-01T00:04:41.530803+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:41.530804+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:41.530804+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:41.530805+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:41.530806+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:41.530810+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:41.534033+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:41.534034+00:00 app[web.1]: 
+2017-08-01T00:04:41.534086+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:41.654199+00:00 app[web.1]: module.js:471
+2017-08-01T00:04:41.654200+00:00 app[web.1]:     throw err;
+2017-08-01T00:04:41.654202+00:00 app[web.1]: 
+2017-08-01T00:04:41.654201+00:00 app[web.1]:     ^
+2017-08-01T00:04:41.654202+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:41.654203+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:469:15)
+2017-08-01T00:04:41.654204+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:41.654204+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:41.654205+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:41.654205+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:41.654206+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:41.656193+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:41.656204+00:00 app[web.1]: 
+2017-08-01T00:04:41.656226+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:41.828870+00:00 app[web.1]: module.js:471
+2017-08-01T00:04:41.828873+00:00 app[web.1]:     throw err;
+2017-08-01T00:04:41.828873+00:00 app[web.1]:     ^
+2017-08-01T00:04:41.828874+00:00 app[web.1]: 
+2017-08-01T00:04:41.828875+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:41.828876+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:469:15)
+2017-08-01T00:04:41.828877+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:41.828877+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:41.828878+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:41.828879+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:41.828880+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:41.832611+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:41.832612+00:00 app[web.1]: 
+2017-08-01T00:04:41.832616+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:41.964868+00:00 app[web.1]: module.js:471
+2017-08-01T00:04:41.964884+00:00 app[web.1]:     throw err;
+2017-08-01T00:04:41.964885+00:00 app[web.1]:     ^
+2017-08-01T00:04:41.964886+00:00 app[web.1]: 
+2017-08-01T00:04:41.964887+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:41.964889+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:41.964888+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:469:15)
+2017-08-01T00:04:41.964890+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:41.964889+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:41.964890+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:41.964892+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:41.967334+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:41.967372+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:41.967335+00:00 app[web.1]: 
+2017-08-01T00:04:42.095785+00:00 app[web.1]: module.js:471
+2017-08-01T00:04:42.095787+00:00 app[web.1]:     throw err;
+2017-08-01T00:04:42.095787+00:00 app[web.1]:     ^
+2017-08-01T00:04:42.095788+00:00 app[web.1]: 
+2017-08-01T00:04:42.095789+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:42.095790+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:469:15)
+2017-08-01T00:04:42.095791+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:42.095791+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:42.095792+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:42.095793+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:42.098766+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:42.098768+00:00 app[web.1]: 
+2017-08-01T00:04:42.095794+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:42.098807+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:42.211998+00:00 app[web.1]: module.js:471
+2017-08-01T00:04:42.212001+00:00 app[web.1]:     throw err;
+2017-08-01T00:04:42.212002+00:00 app[web.1]:     ^
+2017-08-01T00:04:42.212003+00:00 app[web.1]: Error: Cannot find module '/app/src/main.js'
+2017-08-01T00:04:42.212002+00:00 app[web.1]: 
+2017-08-01T00:04:42.212004+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:469:15)
+2017-08-01T00:04:42.212005+00:00 app[web.1]:     at Function.Module._load (module.js:417:25)
+2017-08-01T00:04:42.212005+00:00 app[web.1]:     at Module.runMain (module.js:604:10)
+2017-08-01T00:04:42.212006+00:00 app[web.1]:     at run (bootstrap_node.js:389:7)
+2017-08-01T00:04:42.212007+00:00 app[web.1]:     at startup (bootstrap_node.js:149:9)
+2017-08-01T00:04:42.212007+00:00 app[web.1]:     at bootstrap_node.js:504:3
+2017-08-01T00:04:42.213896+00:00 app[web.1]: Program node src/main.js exited with code 1
+2017-08-01T00:04:42.213898+00:00 app[web.1]: 
+2017-08-01T00:04:42.213969+00:00 app[web.1]: Starting child process with 'node src/main.js'
+2017-08-01T00:04:42.266187+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2017-08-01T00:04:42.266275+00:00 heroku[web.1]: Stopping process with SIGKILL
+2017-08-01T00:04:42.369516+00:00 heroku[web.1]: Process exited with status 137
+2017-08-01T00:04:42.382318+00:00 heroku[web.1]: State changed from starting to crashed
+2017-08-01T00:04:42.996782+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=angular2-github-search.herokuapp.com request_id=f8d39db9-1c77-412e-83d0-6b93d0de2540 fwd="74.68.122.83" dyno= connect= service= status=503 bytes= protocol=https
+2017-08-01T00:04:43.814487+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=angular2-github-search.herokuapp.com request_id=4b8091d4-06d2-45f5-a533-47e25ae45182 fwd="74.68.122.83" dyno= connect= service= status=503 bytes= protocol=https
+2017-08-01T00:04:43.959882+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=angular2-github-search.herokuapp.com request_id=e637fd0f-a69c-4151-b86f-251d31eb09b9 fwd="74.68.122.83" dyno= connect= service= status=503 bytes= protocol=https
+2017-08-01T00:04:44.005387+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=angular2-github-search.herokuapp.com request_id=16ee879b-9f47-4002-b8ce-2b9b9d59201a fwd="74.68.122.83" dyno= connect= service= status=503 bytes= protocol=https
